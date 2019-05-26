@@ -71,3 +71,34 @@ body{
 	background-color: white;
 	/*display: none;*/
 }
+
+.place_box{
+	/*display: block;*/
+	position: relative;
+	border: 2px solid black;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.place{
+	position: relative;
+	display : inline-block;
+	width: 10vw;
+	height: 10vw;
+	left: 1%;
+	border: 2px solid black;
+	line-height: 1em;
+	background: red;
+	/*text-align: center;*/
+}
+
+.place_name{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	margin-top: -0.5em;
+	margin-left: -50%;
+	text-align: center;
+}
