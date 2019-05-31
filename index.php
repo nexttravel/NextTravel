@@ -6,7 +6,7 @@
    $res = mysqli_query($con, $query);
    $row = mysqli_num_rows($res);
 
-   echo $row;
+   
 
 ?>
 
